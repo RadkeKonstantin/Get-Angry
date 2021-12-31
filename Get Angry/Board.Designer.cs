@@ -36,14 +36,11 @@ namespace Get_Angry
             this.button_close = new System.Windows.Forms.Button();
             this.button_start = new System.Windows.Forms.Button();
             this.button_reset = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(768, 768);
@@ -77,15 +74,6 @@ namespace Get_Angry
             this.button_reset.Text = "Reset";
             this.button_reset.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(320, 320);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Board
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -98,7 +86,6 @@ namespace Get_Angry
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Board";
             this.Text = "MDGA";
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -109,7 +96,6 @@ namespace Get_Angry
         private System.Windows.Forms.Button button_close;
         private System.Windows.Forms.Button button_start;
         private System.Windows.Forms.Button button_reset;
-        private System.Windows.Forms.Button button1;
     }
 }
 
